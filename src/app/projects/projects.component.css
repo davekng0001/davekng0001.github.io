@@ -19,3 +19,6 @@ h1,h2,h3 {
 .page{
     font-style: sans-serif;
 }
+li{
+    font-size: 1.3em;
+}

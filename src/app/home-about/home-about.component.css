@@ -12,3 +12,9 @@ h1 {
 .page{
     font-style: sans-serif;
 }
+
+.aboutText{
+    font-size: 1.3em;
+    text-align: justify;
+  text-justify: inter-word;
+}
