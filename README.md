@@ -1,6 +1,11 @@
 # PortfolioDavidk
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+component layout plan:
+
+Home page ,
+navigation bar,
+newsletter form (to know when I'm selling and what you're buying)
+
 
 ## Development server
 
