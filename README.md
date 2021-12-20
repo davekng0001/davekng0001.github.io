@@ -1,12 +1,6 @@
 # PortfolioDavidk
 
-component layout plan:
-
-Home page ,
-navigation bar,
-newsletter form (to know when I'm selling and what you're buying)
-
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/of310RZ" data-context="false" ><a href="//imgur.com/a/of310RZ">Portfolio site</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
