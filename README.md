@@ -1,6 +1,6 @@
-# PortfolioDavidk
+# Techportfolio
 
-![image](https://media.giphy.com/media/NTcy2LQqbMGlftnRQ3/giphy.gif)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
 

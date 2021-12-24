@@ -2,21 +2,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HomeAboutComponent } from './home-about/home-about.component';
-import { AppRoutingModule } from './app-routing.module';
 import { NavigationComponent } from './navigation/navigation.component';
-import { ExperienceComponent } from './experience/experience.component';
+import { HomeComponent } from './home/home.component';
+import { ContactformComponent } from './contactform/contactform.component';
+import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { SkillsComponent } from './skills/skills.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeAboutComponent,
     NavigationComponent,
-    ExperienceComponent,
-    ProjectsComponent,
-    SkillsComponent
+    HomeComponent,
+    ContactformComponent,
+    AboutComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

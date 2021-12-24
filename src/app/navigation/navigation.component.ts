@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -7,10 +7,17 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  @Input() expRef:string = "#epref";
-  @Input() abtRef:string;
-  @Input() projRef:string;
-  constructor() { }
+ mobileBtn:HTMLElement = document.getElementById('mobile-cta');
+  nav:HTMLElement = document.querySelector('nav');
+  mobileBtnExit:HTMLElement = document.getElementById('mobile-exit');
+
+  
+
+
+  constructor() { 
+
+
+  }
 
   ngOnInit(): void {
   }

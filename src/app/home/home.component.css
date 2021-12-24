@@ -1,0 +1,158 @@
+
+h1{
+    font-size: 28px;
+}
+h3{
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    padding-bottom: 0;
+}
+.tech-solutions-container{
+ 
+    background: rgb(226, 211, 211);
+}
+.dave-img{
+    text-align: center;
+}
+.dave-img-a{
+    text-align: center;
+    width: 60%;
+    border-radius: 20%;
+    box-shadow: 3px 5px 4px gray;
+    /* margin-bottom: 1.5em; */
+
+}
+
+.welcome-msg-1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.links{
+    /* text-align: center; */
+    font-weight: bold;
+}
+.linkedin{
+    margin-left: 1em;
+    /* display: inline; */
+    width: 1em;
+}
+.github{
+    width: 1em;
+    margin-left: 1em;
+    top: -1em;
+}
+.about-overview-container, .about-me-section {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1em;
+ padding-right:5em;
+ padding-left: 5em;
+ padding-bottom: .1em;
+}
+.about-me-title{
+    text-align: center;
+    margin-top: 0;
+    position:relative;
+    top: 1em;
+    /* margin-top: -.2em; */
+}
+.about-me-section{
+    background: rgb(219, 219, 245);
+}
+.about-ul{
+    margin: 0;
+    padding-left: .1em;
+    text-align: center;
+  
+}
+
+
+.about-li{
+
+    text-align: center;
+    max-width: auto;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+
+    position:relative;
+}
+
+
+.tech-sol-title{
+    text-align: center;
+    margin-top: 0;
+    position:relative;
+    top: 1.2em;
+    margin-top: -.2em;
+    
+}
+
+.proj-btn{
+    /* text-align: center; */
+    height: 50px;
+    width: 100px;
+    border: black;
+    border-width: 1em;
+    background: rgb(159, 214, 148);
+    border-radius: 1em;
+    font-size: .9em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: .4em .4em; 
+    cursor: pointer;
+}
+.tech-solutions-container{
+    text-align: center;
+}
+.creative{
+    text-align: center;
+}
+
+@media only screen and (min-width:1080px) {
+    .dave-img{
+        width: 800px;
+        margin-bottom: 1em;
+    }
+
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 1em;
+        /* width: auto; */
+  
+    }
+    .container{
+        /* width: auto ; */
+    }
+    .hero-container{
+        width: auto;
+        margin: auto;
+    }
+
+    .about-overview-container{
+        padding-top: 2.8em;
+    }
+    
+}
+
+
+
+@media only screen and (min-width:1300px){
+
+    .hero-container{
+        width: 1300px;
+    }
+   
+       
+
+}
+    
