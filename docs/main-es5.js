@@ -943,7 +943,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-navigation"]],
       decls: 18,
       vars: 4,
-      consts: [[1, "navbar"], [1, "container"], [1, "logo"], ["routerLinkActive", "router-link-active", 1, "logo-a", 3, "routerLink"], [1, "logo-span"], ["src", "/assets/menu.svg", "alt", "Open Menu", 1, "mobile-menu", 3, "click"], [1, "menu-exit-div"], ["src", "/assets/close_blk.svg", "alt", "close menu", 1, "mobile-menu-exit", 3, "click"], [1, "nav-links"], [1, "menu-item-li"], ["href", "#", 1, "current", "menu-item-a"]],
+      consts: [[1, "navbar"], [1, "container"], [1, "logo"], ["routerLinkActive", "router-link-active", 1, "logo-a", 3, "routerLink"], [1, "logo-span"], ["src", "/assets/menu.svg", "alt", "Open Menu", 1, "mobile-menu", 3, "click"], [1, "menu-exit-div"], ["src", "/assets/close_blk.svg", "alt", "close menu", 1, "mobile-menu-exit", 3, "click"], [1, "nav-links"], [1, "menu-item-li"], ["routerLink]", "['']", "routerLinkActive", "router-link-active", 1, "current", "menu-item-a"], ["routerLink]", "['about']", "routerLinkActive", "router-link-active", 1, "current", "menu-item-a"]],
       template: function NavigationComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1002,7 +1002,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 11);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "About");
 
