@@ -906,6 +906,10 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       return [""];
     };
 
+    var _c1 = function _c1() {
+      return ["about"];
+    };
+
     var NavigationComponent = /*#__PURE__*/function () {
       function NavigationComponent() {
         _classCallCheck(this, NavigationComponent);
@@ -942,8 +946,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       type: NavigationComponent,
       selectors: [["app-navigation"]],
       decls: 18,
-      vars: 4,
-      consts: [[1, "navbar"], [1, "container"], [1, "logo"], ["routerLinkActive", "router-link-active", 1, "logo-a", 3, "routerLink"], [1, "logo-span"], ["src", "/assets/menu.svg", "alt", "Open Menu", 1, "mobile-menu", 3, "click"], [1, "menu-exit-div"], ["src", "/assets/close_blk.svg", "alt", "close menu", 1, "mobile-menu-exit", 3, "click"], [1, "nav-links"], [1, "menu-item-li"], ["routerLink]", "['']", "routerLinkActive", "router-link-active", 1, "current", "menu-item-a"], ["routerLink]", "['about']", "routerLinkActive", "router-link-active", 1, "current", "menu-item-a"]],
+      vars: 8,
+      consts: [[1, "navbar"], [1, "container"], [1, "logo"], ["routerLinkActive", "router-link-active", 1, "logo-a", 3, "routerLink"], [1, "logo-span"], ["src", "/assets/menu.svg", "alt", "Open Menu", 1, "mobile-menu", 3, "click"], [1, "menu-exit-div"], ["src", "/assets/close_blk.svg", "alt", "close menu", 1, "mobile-menu-exit", 3, "click"], [1, "nav-links"], [1, "menu-item-li"], ["routerLinkActive", "router-link-active", 1, "current", "menu-item-a", 3, "routerLink"]],
       template: function NavigationComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1002,7 +1006,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "About");
 
@@ -1022,11 +1026,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c0));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](5, _c0));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("menu-open", ctx.menutoggle == true);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](6, _c0));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](7, _c1));
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"]],
