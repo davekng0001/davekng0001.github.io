@@ -2,15 +2,18 @@
 
 h1{
     font-size: 30px;
+   
+    
 }
-
-
+ .about-h1{
+     color: rgb(0, 0, 0);
+ }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 2fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 2fr)); */
 }
 
 .container{
@@ -61,8 +64,13 @@ ul{
  color: rgb(0, 0, 0);
 }
 
+.skills-h1{
+    margin-bottom: .4em;
+    font-size: 25px;
+}
 .skills{
-    background: rgb(255, 251, 237);
+    background: rgb(161, 206, 110);
+    padding-top: 0em;
 }
 
 .skills-ul{
@@ -71,14 +79,20 @@ ul{
     text-align: center;
   
 }
-
+.skill-h1{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 0;
+    top: -5em;
+}
 
 .skills-li{
 
     text-align: center;
     max-width: auto;
-    font-size: 1.1em;
-    margin-bottom: 1em;
+    font-size: 1em;
+    margin-bottom: .5em;
 
     position:relative;
 }
@@ -114,8 +128,23 @@ ul{
     .about-text-div{
         width: 80%;
     }
-    
+        .skills-container{
+        
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .skills-container{
+        
+        width: 800px;
+       margin: auto;
+        
+    }
+   
 }
+
 
 @media only screen and (min-width:1300px){
 
@@ -123,8 +152,9 @@ ul{
         width: 1300px;
     }
    .skills-container{
-       width: 1300px;
-       margin: auto;
+       /* width: 1300px;
+       margin: auto; */
+       
    }
        
 

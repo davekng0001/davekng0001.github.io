@@ -4,28 +4,38 @@
         <div class="logo">
             <a [routerLink]="['']" routerLinkActive="router-link-active" class="logo-a">373 Creative <span class="logo-span"> Engineering</span></a>
             <!-- <div class="links">
-            <a href="https://www.linkedin.com/in/david-king-70379877/">
+            <a href="https://www.linkedin.com/in/david-king-70379877/" >
                 <img src="/assets/linkedin.svg" alt="Linkedin Link" class="linkedin">
             </a> 
             <a href="#">
                 <img src="/assets/github.png" alt="Github Link" class="github">
             </a>
-        </div> -->
+        </div>  -->
         </div>
-        <!-- <img src="/assets/menu.svg" alt="Open Menu" class="mobile-menu">
-        <nav>
+         <img src="/assets/menu.svg" alt="Open Menu" class="mobile-menu" (click)="openMenu()">
+        <nav [class.menu-open]="menutoggle==true">
             <div class="menu-exit-div">
-                <img src="/assets/close_blk.svg" alt="close menu" class="mobile-menu-exit">
+                <img src="/assets/close_blk.svg" alt="close menu" class="mobile-menu-exit" (click)="closeMenu()">
             </div>
 
             <ul class="nav-links">
                 <li class="menu-item-li"> <a href="#" class="current menu-item-a"> Home</a> </li>
-                <li class="menu-item-li"> <a href="#" class="current menu-item-a">About Me</a> </li>
-                <img>
-                <img src="/assets/linkedin/svg">
+                <li class="menu-item-li"> <a href="#" class="current menu-item-a">About</a> </li>
+                <!-- <li class="menu-item-li"> <a href="https://www.linkedin.com/in/david-king-70379877/" 
+                    class="current menu-item-a">Linked <span class="span-li">In</span></a> </li> -->
+   
+               
+                <!-- <li>
+                    <a href="https://www.linkedin.com/in/david-king-70379877/" class=""> 
+                    <img src="/assets/linkedin.svg" class="linkedin-menu"></a>
+                </li>
 
+                <li><a href="https://github.com/davekng0001">
+                    <img src="/assets/github.png" alt="Github Link" class="github-menu">
+                </a>
+            </li> -->
             </ul>
-        </nav> -->
+        </nav>
     </div>
 </div>
 

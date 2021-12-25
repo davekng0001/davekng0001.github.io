@@ -7,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
- mobileBtn:HTMLElement = document.getElementById('mobile-cta');
+ mobileBtn:HTMLElement = document.getElementById('mobile-menu');
   nav:HTMLElement = document.querySelector('nav');
   mobileBtnExit:HTMLElement = document.getElementById('mobile-exit');
 
-  
+  menutoggle:boolean = false;
+
 
 
   constructor() { 
@@ -20,6 +21,17 @@ export class NavigationComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  openMenu(){
+    this.menutoggle = true;
+    
+
+  }
+
+  closeMenu(){
+
+    this.menutoggle= false;
   }
 
 }
