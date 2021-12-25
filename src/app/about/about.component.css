@@ -27,6 +27,20 @@ ul{
     /* margin-bottom: 1.5em; */
 
 }
+.links{
+    /* text-align: center; */
+    font-weight: bold;
+}
+.linkedin{
+    margin-left: 1em;
+    /* display: inline; */
+    width: 1em;
+}
+.github{
+    width: 1em;
+    margin-left: 1em;
+    top: -1em;
+}
 .about-text-div{
     margin-top: 1em;
     /* background: rgb(177, 206, 240); */
