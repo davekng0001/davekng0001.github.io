@@ -95,6 +95,10 @@ ul{
     
 }
 
+.project-container{
+    text-align: center;
+}
+
 .proj-btn{
     /* text-align: center; */
     height: 50px;
@@ -114,6 +118,10 @@ ul{
 }
 .creative{
     text-align: center;
+}
+
+.welcome-msg-1, .welcome-msg-2{
+    font-size: 1.5em;
 }
 
 @media only screen and (min-width:1080px) {
@@ -139,7 +147,9 @@ ul{
     }
 
     .about-overview-container{
-        padding-top: 2.8em;
+        margin-top: 1em;
+        padding-left: 0%;
+      max-width: 50%;
     }
     
 }

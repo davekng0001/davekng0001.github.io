@@ -16,13 +16,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nbody{\n    margin: 0;\n    background: rgb(249, 249, 249);\n   \n}\n\nsection{\n    padding: 2em 2em 2em 2em;\n}", "", {
+    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nbody{\n    margin: 0;\n    background: rgb(249, 249, 249);\n\n    /* background-image:url('./assets/matrix_text.jpg') ; */\n   /* background-color: rgb(179, 3, 3); */\n}\n\nsection{\n    padding: 2em 2em 2em 2em;\n}", "", {
       "version": 3,
       "sources": ["styles.css"],
       "names": [],
-      "mappings": "AAAA,8EAA8E;;AAE9E;IACI,SAAS;IACT,8BAA8B;;AAElC;;AAEA;IACI,wBAAwB;AAC5B",
+      "mappings": "AAAA,8EAA8E;;AAE9E;IACI,SAAS;IACT,8BAA8B;;IAE9B,uDAAuD;GACxD,sCAAsC;AACzC;;AAEA;IACI,wBAAwB;AAC5B",
       "file": "styles.css",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n\nbody{\n    margin: 0;\n    background: rgb(249, 249, 249);\n   \n}\n\nsection{\n    padding: 2em 2em 2em 2em;\n}"]
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n\nbody{\n    margin: 0;\n    background: rgb(249, 249, 249);\n\n    /* background-image:url('./assets/matrix_text.jpg') ; */\n   /* background-color: rgb(179, 3, 3); */\n}\n\nsection{\n    padding: 2em 2em 2em 2em;\n}"]
     }]); // Exports
 
     module.exports = exports;

@@ -1,0 +1,18 @@
+<!-- input gets added to list when button clicked or enter is pushed -->
+<!-- add check box,  -->
+<div class="container">
+
+   <h3>To Do List</h3>
+   <div class="input-items">
+      <input [(ngModel)]="valueT" placeholder="What's next on the list?" type="text" (keyup.enter)="itemAdded()"> 
+      <button (click)="itemAdded()" >Add</button>
+   </div>
+   <h3>Items:</h3>
+   
+   <div *ngFor="let item of todoList; let i = index"  > 
+      <ul> <li   [id]="i" > {{item}} <button [id]="i" (click)="itemRemoved($event)">Done</button> </li></ul>
+   </div>
+
+   
+
+</div>

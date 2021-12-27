@@ -3,7 +3,9 @@
 body{
     margin: 0;
     background: rgb(249, 249, 249);
-   
+
+    /* background-image:url('./assets/matrix_text.jpg') ; */
+   /* background-color: rgb(179, 3, 3); */
 }
 
 section{
