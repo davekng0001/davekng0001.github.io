@@ -1,0 +1,85 @@
+
+section{
+    min-height: ;
+    /* height: auto; */
+   height: 100vh;    
+    background-image:url(/assets/code.jpg) ;
+    opacity: .9; 
+    background-size: contain;
+   
+    color: rgb(106, 255, 233);
+    /* background: cadetblue; */
+}
+
+label,input{
+    display:block;
+}
+label{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    
+}
+.form-item{
+    /* text-align: center; */
+    
+}
+
+form{
+   
+    
+}
+input,textarea{
+    background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    width:100%;
+    padding: .8em;
+    margin-bottom: .5em;
+    border: 1px solid gray;
+    border-radius: .3em;
+    box-sizing: border-box;
+}
+
+input{
+    
+    height: 35px ;
+   
+}
+.p-snd-msg{
+    margin-bottom: .2em;
+}
+button{
+
+    text-align: center;
+    background: rgb(170, 170, 170);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    margin-top: 0em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+    display: inline-block;
+    width: 5em;
+    cursor: pointer;
+
+}
+.btn{
+    text-align: center;
+}
+
+@media only screen and (min-width:650px){
+    .container{
+       
+        /* padding-left: 100px;
+        padding-right: 100px;
+        margin: 0 1em 0 1em; */
+
+       
+        width: 600px;
+        margin: auto;
+        margin-bottom: 0;
+        
+    }
+    
+}

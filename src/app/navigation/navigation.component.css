@@ -1,0 +1,54 @@
+
+
+.container{
+    display: flex;
+    place-content: space-between;
+}
+
+.navbar{
+    background: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+
+
+nav{
+    display: none;
+}
+
+
+.logo-a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+}
+
+.links{
+    display: inline;
+    text-align: right;
+    margin-left: 60px;
+}
+.linkedin{
+    margin-left: 1em;
+    display: inline;
+    width: 1.1em;
+    
+}
+.github{
+    width: 1.1em;
+    margin-left: 1em;
+    top: -1em;
+}
+/* .logo-span{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 1em; 
+} */
+
+.mobile-menu{
+    /* width: 6%; */
+    cursor: pointer;
+   
+}
