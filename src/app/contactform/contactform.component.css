@@ -7,10 +7,14 @@ section{
     opacity: .9; 
     background-size: contain;
    
-    color: rgb(106, 255, 233);
+    color: rgb(249, 249, 249);
     /* background: cadetblue; */
 }
 
+.container{
+    margin: 200px auto auto auto;
+
+}
 label,input{
     display:block;
 }
@@ -74,12 +78,13 @@ button{
         /* padding-left: 100px;
         padding-right: 100px;
         margin: 0 1em 0 1em; */
-
+        /* margin-top: 200px; */
        
         width: 600px;
-        margin: auto;
+        margin: 200px auto auto auto;
         margin-bottom: 0;
         
     }
+ 
     
 }

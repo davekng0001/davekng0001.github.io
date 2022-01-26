@@ -119,6 +119,16 @@ ul{
 .about-me-section{
     background: rgb(219, 219, 245);
 }
+
+.about-container{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1em;
+ padding-right:5em;
+ padding-left: 5em;
+ margin: auto;
+ padding-bottom: .1em;
+}
 .about-ul{
     margin: 0;
     padding-left: .1em;
@@ -202,6 +212,10 @@ ul{
 }
 @media only screen and (min-width:800px) {
 
+    .about-container{
+        /* max-width: 100px; */
+        width: auto;
+    }
     .wrapper-ben{
         max-width: auto;
         /* margin: auto; */
@@ -296,6 +310,14 @@ ul{
         display: flex;
         align-items: center;
     }
+
+    .about-me-wrap{
+
+        display: flex;
+        align-items: center;
+        /* max-width: 800px; */
+        width: auto;
+    }
     .about-overview-container{
        
         padding-bottom: 2.8em;
@@ -310,6 +332,11 @@ ul{
         max-width: 1000px;
         width: auto;
         height: auto;
+    }
+
+    .about-me-wrap{
+        max-width: 800px;
+        width: auto;
     }
 }
 
