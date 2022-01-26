@@ -13,9 +13,12 @@ h1{
     /* background-repeat: no-repeat; */
    
 }
-.about-hero{
 
+
+.about-section{
+    background: cornsilk;
 }
+
 .services{
     background: linear-gradient(90deg, rgba(155, 208, 255, 0.769), rgba(255,255,255,.28)) ;
     
@@ -24,7 +27,7 @@ h1{
 
 }
 section{
-   
+   font-family: 'Times New Roman', Times, serif;
     /* background: linear-gradient(90deg, rgba(210,229,246, .28), rgba(255,255,255,.28)) ; */
   background-color: rgba(0, 0, 0, 0.509);
   /* padding-bottom: 2em; */
@@ -191,6 +194,11 @@ ul{
 }
 .generate-ben{
     margin-top: -1.5em;
+}
+
+.about{
+    color: black;
+    
 }
 @media only screen and (min-width:800px) {
 
